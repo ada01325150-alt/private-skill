@@ -1,10 +1,10 @@
 ---
-name: wechat-official-search-focus
+name: wxgzh-search
 description: Use when a task needs WeChat official account article discovery from keywords, compliant harvesting of public article content, focus-account expansion, direct URL fallback reading, and synthesis into a research-ready evidence packet.
 version: "1.0.0"
 ---
 
-# WeChat Official Search Focus
+# wxgzh-search
 
 Version: `1.0.0`
 

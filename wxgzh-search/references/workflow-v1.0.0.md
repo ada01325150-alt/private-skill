@@ -1,4 +1,4 @@
-# WeChat Official Search Focus Workflow
+# wxgzh-search Workflow
 
 Version: `1.0.0`
 

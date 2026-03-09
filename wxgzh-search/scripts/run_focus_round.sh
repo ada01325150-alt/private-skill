@@ -44,7 +44,7 @@ done
 
 mkdir -p "$OUT_ROOT" "$ROOT_DIR/data/wechat-research/queue"
 
-echo "[wechat-official-search-focus] version=1.0.0"
+echo "[wxgzh-search] version=1.0.0"
 echo "[1/3] discovery and queue generation"
 
 BATCH_CMD=(python3 "$ROOT_DIR/scripts/wechat_keyword_standard_batch.py"

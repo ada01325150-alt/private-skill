@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "wxgzh-search"
+  short_description: "Search, harvest, and synthesize WeChat article evidence."
+  default_prompt: "Use $wxgzh-search to discover WeChat articles from keywords and build a focused evidence packet."
+policy:
+  allow_implicit_invocation: false

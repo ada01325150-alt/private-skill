@@ -1,4 +1,4 @@
-# WeChat Official Search Focus Test Cases
+# wxgzh-search Test Cases
 
 Version: `1.0.0`
 
