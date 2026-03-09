@@ -8,10 +8,10 @@ Version: `1.0.0`
 
 ## Included packages
 
-- `browser-automation-ops/`
+- `skills/browser-automation-ops/`
   - English skill wrapping the local `agent-browser` package.
   - Adds a preflight script and challenge triage helper.
-- `wxgzh-search/`
+- `skills/wxgzh-search/`
   - English skill wrapping local WeChat article reading plus keyword-search / focus-expansion scripts.
   - Includes queue-based harvesting, digesting, and dialectic synthesis helpers.
 
