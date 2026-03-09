@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "Browser Automation Ops"
+  short_description: "Automate browser tasks with guarded challenge handling."
+  default_prompt: "Use $browser-automation-ops to drive browser flows, capture screenshots, and handle verification checkpoints safely."
+policy:
+  allow_implicit_invocation: false
