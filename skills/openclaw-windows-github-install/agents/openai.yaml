@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "openclaw-windows-github-install"
+  short_description: "Install OpenClaw on Windows via WSL2 from the official GitHub repo."
+  default_prompt: "Use $openclaw-windows-github-install to check WSL2 on Windows, bootstrap Ubuntu and WSL2 if missing, then install OpenClaw only from the official GitHub repository with careful Windows admin and WSL sudo permission handling."
+policy:
+  allow_implicit_invocation: false
