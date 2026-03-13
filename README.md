@@ -4,6 +4,14 @@ A small private repository of reusable Codex/OpenClaw-style skills.
 
 ## Repository layout
 
+- `skills/agent-skill-portfolio-evaluator`
+  - Reviews the full skill portfolio attached to an agent for overlap, gaps, collisions, and sequencing
+- `skills/agent-architecture-evaluator`
+  - Reviews an agent or multi-agent architecture for routing, memory, coordination, observability, and optimization
+- `skills/agent-creator`
+  - Creates first-pass agent skills with identity, trigger contracts, file plans, and seed evals
+- `skills/agent-test-measure-refine`
+  - Evaluates existing agent skills with trigger tests, functional checks, baseline comparisons, and release decisions
 - `skills/browser-automation-ops`
   - Local browser automation workflow built around `agent-browser`
   - Includes guarded challenge triage and preflight checks
@@ -17,6 +25,10 @@ A small private repository of reusable Codex/OpenClaw-style skills.
 
 | Skill | Purpose | Entry file |
 |---|---|---|
+| `agent-creator` | Create a first strong draft of an agent skill with identity, trigger contract, and seed evals | `skills/agent-creator/SKILL.md` |
+| `agent-test-measure-refine` | Test, benchmark, score, and refine an existing agent skill | `skills/agent-test-measure-refine/SKILL.md` |
+| `agent-skill-portfolio-evaluator` | Evaluate and optimize the related skill portfolio attached to an agent | `skills/agent-skill-portfolio-evaluator/SKILL.md` |
+| `agent-architecture-evaluator` | Evaluate and optimize an agent or multi-agent architecture | `skills/agent-architecture-evaluator/SKILL.md` |
 | `browser-automation-ops` | Browser automation, screenshots, structured interaction, challenge triage | `skills/browser-automation-ops/SKILL.md` |
 | `wxgzh-search` | WeChat article search, harvest, direct-read fallback, synthesis | `skills/wxgzh-search/SKILL.md` |
 
@@ -27,6 +39,8 @@ A small private repository of reusable Codex/OpenClaw-style skills.
 - `agents/openai.yaml` contains UI-facing metadata.
 - `scripts/` contains reusable helpers and wrappers.
 - `references/` contains supporting operating guidance.
+- `scripts/validate_skills.py` validates skill structure, metadata, cross-links, and Python helper syntax.
+- `assets/clawhub-publish.md` can be added to a skill when you want ready-to-publish ClawHub naming, listing copy, and publish commands.
 
 ## Versioning
 

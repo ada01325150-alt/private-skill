@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "Agent Test Measure Refine"
+  short_description: "Test, score, benchmark, and improve an existing agent skill before release."
+  default_prompt: "Use $agent-test-measure-refine to evaluate this existing agent skill with trigger tests, functional tests, repeated trials, baseline comparison, and a release decision with targeted refinement recommendations."
+policy:
+  allow_implicit_invocation: false

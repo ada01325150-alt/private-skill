@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "Agent Skill Portfolio Evaluator"
+  short_description: "Evaluate and optimize the full skill portfolio attached to an agent."
+  default_prompt: "Use $agent-skill-portfolio-evaluator to review this agent's related skills as a portfolio, detect collisions and gaps, and propose a portfolio-level test and optimization plan."
+policy:
+  allow_implicit_invocation: false

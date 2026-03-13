@@ -1,0 +1,7 @@
+# Version: 1.0.0
+interface:
+  display_name: "Agent Creator"
+  short_description: "Create a first strong draft of an agent skill with identity, triggers, and starter evals."
+  default_prompt: "Use $agent-creator to turn this rough agent or workflow idea into a structured skill package with identity, trigger contract, file plan, and a starter eval set for the evaluator skill."
+policy:
+  allow_implicit_invocation: false

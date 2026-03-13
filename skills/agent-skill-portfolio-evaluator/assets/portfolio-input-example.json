@@ -1,0 +1,26 @@
+{
+  "portfolio_inventory": [
+    "research-skill",
+    "synthesis-skill",
+    "report-delivery-skill"
+  ],
+  "capability_matrix": [
+    "Research is strong",
+    "Delivery overlaps with synthesis on generic summary prompts"
+  ],
+  "collision_and_gap_report": [
+    "Collision between synthesis and report-delivery on summarization",
+    "Gap in revision handling"
+  ],
+  "portfolio_test_plan": [
+    "Test explicit routing",
+    "Test ambiguous routing",
+    "Test multi-step workflow"
+  ],
+  "optimization_backlog": [
+    "Tighten delivery trigger",
+    "Add revision coverage",
+    "Document handoff rules"
+  ],
+  "portfolio_release_recommendation": "iterate"
+}

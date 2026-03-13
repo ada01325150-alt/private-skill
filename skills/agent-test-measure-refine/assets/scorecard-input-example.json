@@ -1,0 +1,34 @@
+{
+  "skill_name": "investor-update-agent",
+  "version_under_test": "0.2.0",
+  "recommendation": "iterate",
+  "trigger_accuracy": [
+    "Strong on explicit investor-update prompts",
+    "Overtriggered on generic update-writing prompts"
+  ],
+  "functional_correctness": [
+    "Produced wins, risks, metrics, and asks",
+    "Sometimes failed to flag missing metrics"
+  ],
+  "baseline_comparison": [
+    "More consistent than baseline",
+    "Baseline slightly faster"
+  ],
+  "ab_comparison": [
+    "New version reduced false positives",
+    "One paraphrase still undertriggered"
+  ],
+  "reliability_notes": [
+    "4/5 repeated runs passed core rubric"
+  ],
+  "cost_latency_notes": [
+    "Higher token use than baseline",
+    "Lower human edit distance"
+  ],
+  "top_three_refinements": [
+    "Add mandatory missing-metrics check",
+    "Tighten trigger description",
+    "Add one more paraphrased trigger example"
+  ],
+  "release_gate_decision": "Do not ship yet. Re-run after tightening trigger boundaries and missing-data handling."
+}

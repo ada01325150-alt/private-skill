@@ -1,0 +1,35 @@
+{
+  "skill_name": "example-skill",
+  "version_under_test": "0.1.0",
+  "tests": {
+    "trigger_positive": [
+      {
+        "prompt": "Help me create a weekly investor update from these notes.",
+        "expected": "skill should trigger"
+      }
+    ],
+    "trigger_negative": [
+      {
+        "prompt": "What's the weather in Shanghai?",
+        "expected": "skill should not trigger"
+      }
+    ],
+    "functional": [
+      {
+        "prompt": "Use the skill on a representative task.",
+        "expected": [
+          "required sections present",
+          "key workflow steps completed"
+        ]
+      }
+    ],
+    "baseline_compare": [
+      {
+        "prompt": "Run the same task with and without the skill.",
+        "expected": [
+          "quality difference recorded"
+        ]
+      }
+    ]
+  }
+}
